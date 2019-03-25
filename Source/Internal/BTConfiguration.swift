@@ -23,7 +23,7 @@
 
 import UIKit
 
-final class BTConfiguration {
+public final class BTConfiguration {
     var menuTitleColor: UIColor?
     var cellHeight: CGFloat!
     var cellBackgroundColor: UIColor?

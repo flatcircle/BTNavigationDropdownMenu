@@ -432,13 +432,15 @@ open class BTNavigationDropdownMenu: UIView {
         // By default, hide menu view
         self.menuWrapper.isHidden = true
     }
-    
-    public init(navigationController: UINavigationController? = nil, containerView: UIView = UIApplication.shared.keyWindow!, title: UIImage, images: [UIImage]) {
+
+    public init(navigationController: UINavigationController? = nil, containerView: UIView = UIApplication.shared.keyWindow!, config: BTConfiguration, title: UIImage, images: [UIImage]) {
         // Key window
         guard let window = UIApplication.shared.keyWindow else {
             super.init(frame: CGRect.zero)
             return
         }
+        
+        self.configuration = config
         
         // Navigation controller
         if let navigationController = navigationController {

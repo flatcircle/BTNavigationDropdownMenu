@@ -26,7 +26,7 @@ class ViewController: UIViewController {
         self.navigationController?.navigationBar.barTintColor = UIColor(red: 0.0/255.0, green: 180/255.0, blue: 220/255.0, alpha: 1.0)
         self.navigationController?.navigationBar.titleTextAttributes = [.foregroundColor: UIColor.white]
         
-        menuView = BTNavigationDropdownMenu(navigationController: self.navigationController, containerView: self.navigationController!.view, title: #imageLiteral(resourceName: "logo-timeslive"), images: images)
+        menuView = BTNavigationDropdownMenu(navigationController: self.navigationController, containerView: self.navigationController!.view, config: BTConfiguration(), title: #imageLiteral(resourceName: "logo-timeslive"), images: images)
         
         menuView.imageMode = true
         menuView.dynamicSelection = [true, true, false]
