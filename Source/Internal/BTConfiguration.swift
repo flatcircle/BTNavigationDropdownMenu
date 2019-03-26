@@ -23,34 +23,34 @@
 
 import UIKit
 
-final class BTConfiguration {
-    var menuTitleColor: UIColor?
-    var cellHeight: CGFloat!
-    var cellBackgroundColor: UIColor?
-    var cellSeparatorColor: UIColor?
-    var cellTextLabelColor: UIColor?
-    var selectedCellTextLabelColor: UIColor?
-    var cellTextLabelFont: UIFont!
-    var navigationBarTitleFont: UIFont!
-    var cellTextLabelAlignment: NSTextAlignment!
-    var cellSelectionColor: UIColor?
-    var checkMarkImage: UIImage!
-    var shouldKeepSelectedCellColor: Bool!
-    var arrowTintColor: UIColor?
-    var arrowImage: UIImage!
-    var arrowPadding: CGFloat!
-    var animationDuration: TimeInterval!
-    var maskBackgroundColor: UIColor!
-    var maskBackgroundOpacity: CGFloat!
-    var shouldChangeTitleText: Bool!
-    var imageMode: Bool!
-    var dynamicSelection: [Bool]?
-    var dynamicBackgrounds: [UIColor]?
-    var footerView: UIView!
-    var titleImageHeight: CGFloat!
-    var cellImageHeight: CGFloat!
+public final class BTConfiguration {
+    public var menuTitleColor: UIColor?
+    public var cellHeight: CGFloat!
+    public var cellBackgroundColor: UIColor?
+    public var cellSeparatorColor: UIColor?
+    public var cellTextLabelColor: UIColor?
+    public var selectedCellTextLabelColor: UIColor?
+    public var cellTextLabelFont: UIFont!
+    public var navigationBarTitleFont: UIFont!
+    public var cellTextLabelAlignment: NSTextAlignment!
+    public var cellSelectionColor: UIColor?
+    public var checkMarkImage: UIImage!
+    public var shouldKeepSelectedCellColor: Bool!
+    public var arrowTintColor: UIColor?
+    public var arrowImage: UIImage!
+    public var arrowPadding: CGFloat!
+    public var animationDuration: TimeInterval!
+    public var maskBackgroundColor: UIColor!
+    public var maskBackgroundOpacity: CGFloat!
+    public var shouldChangeTitleText: Bool!
+    public var imageMode: Bool!
+    public var dynamicSelection: [Bool]?
+    public var dynamicBackgrounds: [UIColor]?
+    public var footerView: UIView!
+    public var titleImageHeight: CGFloat!
+    public var cellImageHeight: CGFloat!
     
-    init() {
+    public init() {
         self.defaultValue()
     }
     
