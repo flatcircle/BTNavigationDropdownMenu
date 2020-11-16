@@ -61,8 +61,8 @@ public final class BTConfiguration {
         let imageBundle = Bundle(url: url!)
         let checkMarkImagePath = imageBundle?.path(forResource: "checkmark_icon", ofType: "png")
         let arrowImagePath = imageBundle?.path(forResource: "arrow_down_icon", ofType: "png")
-        
-        // Default values
+
+        // Set default values
         self.menuTitleColor = UIColor.darkGray
         self.cellHeight = 50
         self.cellBackgroundColor = UIColor.white
@@ -70,8 +70,8 @@ public final class BTConfiguration {
         self.cellSeparatorColor = UIColor.darkGray
         self.cellTextLabelColor = UIColor.darkGray
         self.selectedCellTextLabelColor = UIColor.darkGray
-        self.cellTextLabelFont = UIFont(name: "HelveticaNeue-Bold", size: 17)
-        self.navigationBarTitleFont = UIFont(name: "HelveticaNeue-Bold", size: 17)
+        self.cellTextLabelFont = UIFont.systemFont(ofSize: 17, weight: .bold)
+        self.navigationBarTitleFont = UIFont.systemFont(ofSize: 17, weight: .bold)
         self.cellTextLabelAlignment = NSTextAlignment.left
         self.cellSelectionColor = UIColor.lightGray
         self.checkMarkImage = UIImage(contentsOfFile: checkMarkImagePath!)
