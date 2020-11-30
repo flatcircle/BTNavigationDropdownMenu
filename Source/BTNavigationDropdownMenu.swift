@@ -274,6 +274,13 @@ open class BTNavigationDropdownMenu: UIView {
             self.configuration.cellImageHeight = value
         }
     }
+
+    @available(iOS 13.0, *)
+    open override var overrideUserInterfaceStyle: UIUserInterfaceStyle {
+        didSet {
+            tableView.overrideUserInterfaceStyle = overrideUserInterfaceStyle
+        }
+    }
     
     open var didSelectItemAtIndexHandler: ((_ indexPath: Int) -> ())?
     open var isShown: Bool!

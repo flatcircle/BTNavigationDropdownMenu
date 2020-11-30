@@ -19,6 +19,7 @@
 		AA8E37E721830B69009609E6 /* BTTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8E37DA21830B69009609E6 /* BTTableView.swift */; };
 		AA8E37E821830B69009609E6 /* BTConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8E37DB21830B69009609E6 /* BTConfiguration.swift */; };
 		AA8E37E921830B69009609E6 /* BTNavigationDropdownMenu.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AA8E37DC21830B69009609E6 /* BTNavigationDropdownMenu.bundle */; };
+		E17961BC25750B6C0033BF08 /* BTImageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17961BB25750B6C0033BF08 /* BTImageTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		AA8E37DB21830B69009609E6 /* BTConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BTConfiguration.swift; sourceTree = "<group>"; };
 		AA8E37DC21830B69009609E6 /* BTNavigationDropdownMenu.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = BTNavigationDropdownMenu.bundle; sourceTree = "<group>"; };
 		AA8E37DD21830B69009609E6 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E17961BB25750B6C0033BF08 /* BTImageTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BTImageTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 		AA8E37D721830B69009609E6 /* Internal */ = {
 			isa = PBXGroup;
 			children = (
+				E17961BB25750B6C0033BF08 /* BTImageTableViewCell.swift */,
 				AA8E37D821830B69009609E6 /* BTTableViewCell.swift */,
 				AA8E37D921830B69009609E6 /* BTTableCellContentView.swift */,
 				AA8E37DA21830B69009609E6 /* BTTableView.swift */,
@@ -192,6 +195,7 @@
 			files = (
 				AA8E37E421830B69009609E6 /* UIViewController+Extension.swift in Sources */,
 				AA8E37E521830B69009609E6 /* BTTableViewCell.swift in Sources */,
+				E17961BC25750B6C0033BF08 /* BTImageTableViewCell.swift in Sources */,
 				AA8E37E321830B69009609E6 /* UIView+Extension.swift in Sources */,
 				AA8E37E721830B69009609E6 /* BTTableView.swift in Sources */,
 				AA8E37E621830B69009609E6 /* BTTableCellContentView.swift in Sources */,
